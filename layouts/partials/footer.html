@@ -117,6 +117,10 @@
                 <li><a href={{ printf "https://twitter.com/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-twitter"></i></span> <span>{{ $value }}</span>
                 </a></li>
+              {{ else if (eq $key "facebook") }}
+                <li><a href={{ printf "https://facebook.com/in/%s" $value }} target="_blank" rel="noopener">
+                  <span><i class="fab fa-facebook"></i></span> <span>{{ $author.name }}</span>
+                </a></li>
               {{ else }}
                 <li><span>{{ title $key }}: </span> <span>{{ $value }}</span></li>
               {{ end }}
