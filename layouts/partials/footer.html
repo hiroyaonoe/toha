@@ -102,9 +102,7 @@
           <ul>
             {{ range $key,$value:= $author.contactInfo }}
               {{ if (eq $key "email") }}
-                <li><a href={{ printf "mailto:%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span>{{ $value }}</span>
-                </a></li>
+                <li><span><i class="fas fa-envelope"></i></span> <span>{{ $value }}</span></li>
               {{ else if (eq $key "phone") }}
                 <li><span><i class="fas fa-phone-alt"></i></span> <span>{{ $value }}</span></li>
               {{ else if (eq $key "linkedin") }}
@@ -114,6 +112,10 @@
               {{ else if (eq $key "github") }}
                 <li><a href={{ printf "https://github.com/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-github"></i></span> <span>{{ $value }}</span>
+                </a></li>
+              {{ else if (eq $key "twitter") }}
+                <li><a href={{ printf "https://twitter.com/%s" $value }} target="_blank" rel="noopener">
+                  <span><i class="fab fa-twitter"></i></span> <span>{{ $value }}</span>
                 </a></li>
               {{ else }}
                 <li><span>{{ title $key }}: </span> <span>{{ $value }}</span></li>
