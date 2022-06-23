@@ -1,123 +1,126 @@
 # More documentation here: https://github.com/nicksnyder/go-i18n
 [home]
-other = "ホーム"
+other = "Home"
 
 [posts]
-other = "記事"
+other = "Posts"
 
 [toc_heading]
-other = "目次"
+other = "Table of Contents"
 
 [tags]
-other = "タグ"
+other = "Tags"
 
 [categories]
-other = "カテゴリ"
+other = "Categories"
+
+[at]
+other = "at"
 
 [resume]
-other = "職務経歴書"
+other = "My resume"
 
 [navigation]
-other = "メニュー"
+other = "Navigation"
 
 [contact_me]
-other = "連絡先"
+other = "Contact me:"
 
 [email]
-other = "メール"
+other = "Email"
 
 [phone]
-other = "電話番号"
+other = "Phone"
 
 [newsletter_text]
-other = "メールで最新情報を受け取る"
+other = "Stay up to date with email notification"
 
 [newsletter_input_placeholder]
-other = "ここにメールアドレスを入力"
+other = "Enter email"
 
 [newsletter_warning]
-other = "メールアドレスを入力すると、このウェブサイトのニュースレターを受け取ることに同意したことになります。"
+other = "By entering your email address, you agree to receive the newsletter of this website."
 
 [submit]
-other = "登録"
+other = "Submit"
 
 [hugoAttributionText]
-other = "搭載"
+other = "Powered by"
 
 [prev]
-other = "前"
+other = "Prev"
 
 [next]
-other = "次"
+other = "Next"
 
-# [share_on]
-# other = "Share on"
+[share_on]
+other = "Share on"
 
 [improve_this_page]
-other = "編集リクエストを送る"
+other = "Improve this page"
 
 [out_of]
-other = "のうち"
+other = "out of"
 
 [publications]
-other = "出版物"
+other = "Publications"
 
 [taken_courses]
-other = "受講したコース"
+other = "Taken Courses"
 
 [course_name]
-other = "コース名"
+other = "Course Name"
 
 [total_credit]
-other = "合計クレジット"
+other = "Total Credit"
 
 [obtained_credit]
-other = "取得したクレジット"
+other = "Obtained Credit"
 
 [extracurricular_activities]
-other = "課外活動"
+other = "Extracurricular Activities"
 
 [show_more]
-other = "続きを見る"
+other = "Show More"
 
 [show_less]
-other = "表示を減らす"
+other = "Show Less"
 
-# [responsibilities]
-# other = "Responsibilities:"
+[responsibilities]
+other = "Responsibilities:"
 
-# [present]
-# other = "Present"
+[present]
+other = "Present"
 
-# [comments_javascript]
-# other = "Please enable JavaScript to view the"
+[comments_javascript]
+other = "Please enable JavaScript to view the"
 
-# [comments_by]
-# other = "comments powered by"
+[comments_by]
+other = "comments powered by"
 
-# [read]
-# other = "Read"
+[read]
+other = "Read"
 
-# [project_star]
-# other = "Star"
+[project_star]
+other = "Star"
 
-# [project_details]
-# other = "Details"
+[project_details]
+other = "Details"
 
-# [err_404]
-# other = "The page you are looking for is not there yet."
+[err_404]
+other = "The page you are looking for is not there yet."
 
 [more]
-other = "もっと"
+other = "More"
 
 [view_certificate]
-other = "ビューの証明書"
+other = "View Certificate"
 
 [notes]
-other = "ノート"
+other = "Notes"
 
 [disclaimer_text]
-other = "責任通知"
+other = "Liability Notice"
 
 [search]
-other = "検索"
+other = "Search"
