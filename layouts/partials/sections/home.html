@@ -15,13 +15,13 @@
   {{ $sections = (index site.Data site.Language.Lang).sections }}
 {{ end }}
 
-{{ $backgroundImage:= "/images/default-background.jpg" }}
+{{ $backgroundImage:= "/images/default-background.webp" }}
 {{ if site.Params.background }}
   {{ $backgroundImage = site.Params.background }}
 {{ end }}
 
 
-{{ $authorImage:= "/images/default-avatar.png" }}
+{{ $authorImage:= "/images/default-avatar.webp" }}
 {{ if $author.image }}
   {{ $authorImage = $author.image }}
 {{ end }}
