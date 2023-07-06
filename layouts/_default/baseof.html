@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+{{ if .Params.exlink }}
+{{ partial "exlink.html" . }}
+{{ else }}
 <html>
   <head>
     <title>{{ .Page.Title }}</title>
@@ -45,3 +48,4 @@
 
   </body>
 </html>
+{{ end }}
