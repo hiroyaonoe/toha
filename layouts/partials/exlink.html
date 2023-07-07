@@ -1,6 +1,12 @@
-<!DOCTYPE html>
 <html{{ with site.LanguageCode | default site.Language.Lang }} lang="{{ . }}"{{ end }}>
   <head>
+    <!------ ADD COMMON HEADERS -------->
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+
+    <!--================= add analytics if enabled =========================-->
+    {{- partial "analytics.html" . -}}
+
     <title>{{ .Params.exlink }}</title>
     <link rel="canonical" href="{{ .Params.exlink }}">
     <meta name="robots" content="noindex">
