@@ -1,8 +1,8 @@
 <html{{ with site.LanguageCode | default site.Language.Lang }} lang="{{ . }}"{{ end }}>
   <head>
     <!------ ADD COMMON HEADERS -------->
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
+    {{ partial "opengraph.html" . }}
+    {{ partial "twitter_cards.html" . }}
 
     <!--================= add analytics if enabled =========================-->
     {{- partial "analytics.html" . -}}
